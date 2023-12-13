@@ -33,3 +33,7 @@ variable "vm_size" {
   type    = string
   default = "Standard_B2S"
 }
+variable "network_profile" {
+  type = list(string)
+  default = [ "10.0.0.10", "172.17.0.1/16", "standard", "azure", "loadBalancer", "10.0.0.0/16" ]
+}

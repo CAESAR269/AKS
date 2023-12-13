@@ -26,7 +26,6 @@ variable "node_count" {
   default = {
     default = 1
     Dev     = 2
-
   }
 }
 variable "vm_size" {
